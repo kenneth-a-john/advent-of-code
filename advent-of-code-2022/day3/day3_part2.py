@@ -6,7 +6,6 @@ prev_line = ""
 # Read through each lines of the file
 for line in f.readlines():
     line = line.strip()
-    print(batch)
     if len(batch) != 3:
         batch.append(line)
     else:
